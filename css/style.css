@@ -225,3 +225,25 @@ background-image: url('../images/speaker.svg');
 .expertise_item-text {
   color: #777;
 }
+
+.magic {
+  background-color: #F6F8FA;
+  background-image: url(../images/magic-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left 82%; 
+}
+
+.magic_inner {
+  max-width: 470px;
+  margin-left: auto;
+  padding: 100px 0 190px;
+}
+
+.magic_title {
+  margin-bottom: 67px;
+}
+
+.magic_text {
+  margin-bottom: 25px;
+}

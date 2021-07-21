@@ -128,3 +128,100 @@ a {
   max-width: 770px;
   margin-bottom: 16px;
 }
+
+.expertise {
+  padding: 140px 0 160px;
+}
+
+.expertise_title {
+margin-bottom: 90px;
+}
+
+.expertise_inner {
+  display: flex;
+  margin-bottom: 110px;
+}
+
+.expertise_info {
+  width: 370px;
+  margin-right: 30px;
+  flex: none;
+  margin-top: 10px;
+}
+
+.expertise_info-item {
+  border-top: 2px solid #1D1D1D;
+  padding: 2px 0 28px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #1D1D1D;
+  position: relative;
+}
+
+.expertise_info-item span {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 7px;
+}
+
+.expertise_info-item span::before{
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #f0f0f0;
+  right: -7px;
+  top: -2px;
+  width: 100%;
+}
+
+.expertise_text p {
+  margin-bottom: 25px;
+}
+
+.expertise_items {
+display: flex;
+justify-content: space-between;
+}
+
+.expertise_item {
+  width: 370px;
+  padding-left: 85px;
+  position: relative;
+}
+
+.expertise_item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.expertise_item-design::before {
+background-image: url('../images/vector.svg');
+}
+.expertise_item-dv::before {
+background-image: url('../images/monitor.svg');
+}
+.expertise_item-marketing::before {
+background-image: url('../images/speaker.svg');
+}
+
+.expertise_item-title {
+  line-height: 20px;
+  letter-spacing: 4.29px;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.expertise_item-text {
+  color: #777;
+}
